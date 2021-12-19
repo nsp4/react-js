@@ -18,6 +18,9 @@ import UpdateOperator from "./components/updateoperator";
 import CustomerDashboard from "./components/customerdashboard";
 import Call from "./components/call";
 import AboutUs from "./components/aboutus";
+import OperatorDashboard from "./components/operatordashboard";
+import AddIssue from "./components/addissue";
+
 
 
 function App() {
@@ -39,6 +42,8 @@ function App() {
         <Route path="/addoperator" component={AddOperator}/>
         <Route path="/regoperator" component={RegOperator}/>
         <Route path="/operator" component={Operator}/>
+        <Route path="/addissue" component={AddIssue}/>
+        <Route path="/operatordashboard" component={OperatorDashboard}/>
         <Route path="/call" component={Call} />
         <Route path="/aboutus" component={AboutUs} />
         <Route path="/customerdashboard" component={CustomerDashboard}/>
